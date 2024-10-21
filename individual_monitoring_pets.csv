@@ -1,0 +1,408 @@
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:42, 11660dda-73c3-4121-99fa-a16705e0967c, /api/v1/clinics, GET, null, 462ms, CPU Load: 0.00%, Memory Load: 3.281727GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:43, 8473fbc9-de02-4b34-bb3a-c9668b09fc3a, /api/v1/auth/signup, POST, null, 477ms, CPU Load: 33.33%, Memory Load: 3.282688GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:44, b69bdaee-ae13-4dcc-a679-495e285f960a, /api/v1/auth/signin, POST, null, 835ms, CPU Load: 42.86%, Memory Load: 3.285091GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:45, 0c00af47-7a4c-454f-81af-389957713b03, /api/v1/pets, GET, GOLD, 62ms, CPU Load: 70.00%, Memory Load: 3.286533GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:45, 78113d7a-94bc-4f60-9fec-329cfd96272f, /api/v1/visits, GET, GOLD, 70ms, CPU Load: 0.00%, Memory Load: 3.287014GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:46, 66713113-80ef-4408-aa11-c233e4658a5f, /api/v1/pets/types, GET, GOLD, 60ms, CPU Load: 100.00%, Memory Load: 3.287014GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:47, a49e2859-bfa4-40fd-9a99-4e7e98afcf56, /api/v1/pets, POST, GOLD, 206ms, CPU Load: 50.00%, Memory Load: 3.287735GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:47, 78052b03-9bff-448f-a7bf-039c1247a833, /api/v1/pets, GET, GOLD, 79ms, CPU Load: 64.71%, Memory Load: 3.287949GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:48, a2dc84dd-5b3a-44f2-ade5-6c7614688354, /api/v1/visits, GET, GOLD, 78ms, CPU Load: 73.68%, Memory Load: 3.287888GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:48, 8f35eca0-7753-43e7-8e13-41250780ce55, /api/v1/pets/151, DELETE, GOLD, 159ms, CPU Load: 47.37%, Memory Load: 3.288189GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:49, 7ccaf92f-bc09-4fc1-866d-e554a27e9da4, /api/v1/pets, GET, GOLD, 42ms, CPU Load: 57.14%, Memory Load: 3.288670GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:10:49, ad071209-a3e1-4336-a3f8-f70545359b0c, /api/v1/visits, GET, GOLD, 97ms, CPU Load: 60.00%, Memory Load: 3.288670GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:16, 1f278ad0-1347-4b3c-8839-c90b9d83ba0b, /api/v1/clinics, GET, null, 25ms, CPU Load: 75.00%, Memory Load: 3.309891GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:16, d6a399a8-1f59-4266-9b1a-214e478dece8, /api/v1/auth/signup, POST, null, 17ms, CPU Load: 50.00%, Memory Load: 3.309891GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:16, 2100d91d-7bc1-429b-82b7-885734b08dcd, /api/v1/auth/signin, POST, null, 239ms, CPU Load: 55.56%, Memory Load: 3.309891GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:17, b6c723db-665c-4d94-9283-7c7a27da9068, /api/v1/pets, GET, GOLD, 43ms, CPU Load: 50.00%, Memory Load: 3.310612GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:17, 3cd9a392-efda-4dc7-91ad-bf406a5486ad, /api/v1/visits, GET, GOLD, 58ms, CPU Load: 62.50%, Memory Load: 3.310852GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:18, a167cabd-7382-4105-af3e-fa3de560dbd2, /api/v1/pets/types, GET, GOLD, 45ms, CPU Load: 55.56%, Memory Load: 3.310852GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:18, 4a07f670-f396-436e-9bfb-630cc5712181, /api/v1/pets, POST, GOLD, 68ms, CPU Load: 71.43%, Memory Load: 3.310852GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:19, 52f35ea6-89d3-42e2-a052-949c1dc9246b, /api/v1/pets, GET, GOLD, 61ms, CPU Load: 72.00%, Memory Load: 3.311092GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:19, 8e9b4add-1aff-4c5b-9e19-243bb5c4f6ae, /api/v1/visits, GET, GOLD, 21ms, CPU Load: 77.78%, Memory Load: 3.311092GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:19, b949575e-cfcb-4c08-be90-fda34b12b4eb, /api/v1/pets/152, DELETE, GOLD, 111ms, CPU Load: 50.00%, Memory Load: 3.312775GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:20, b0d0d1fd-e3d9-45dc-b3d2-e31051df15e6, /api/v1/pets, GET, GOLD, 22ms, CPU Load: 63.64%, Memory Load: 3.313736GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:20, 4dbf499c-78e9-465a-aba3-6f5a8e43721a, /api/v1/visits, GET, GOLD, 52ms, CPU Load: 0.00%, Memory Load: 3.313736GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:40, 86eb71d4-451c-4cf0-89bb-6e6ca84f8454, /api/v1/clinics, GET, null, 16ms, CPU Load: 42.86%, Memory Load: 3.314907GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:40, 1b5deb26-4362-4eca-8484-44033d316365, /api/v1/auth/signup, POST, null, 10ms, CPU Load: 43.75%, Memory Load: 3.314907GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:41, 20655c12-39ac-4063-ab8b-87d9f2d4bbe8, /api/v1/auth/signin, POST, null, 257ms, CPU Load: 50.00%, Memory Load: 3.315147GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:41, 07f243c4-3bee-48d6-8402-212779737f27, /api/v1/pets, GET, GOLD, 30ms, CPU Load: 60.00%, Memory Load: 3.316589GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:41, cb531076-3339-4b7d-964f-2acfa5775350, /api/v1/visits, GET, GOLD, 45ms, CPU Load: 57.14%, Memory Load: 3.316830GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:42, 812fe029-07ab-4bc4-9ed7-d670d213db60, /api/v1/pets/types, GET, GOLD, 32ms, CPU Load: 57.89%, Memory Load: 3.318272GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:42, a1787bf0-27b1-49b3-860e-c74604259bc7, /api/v1/pets, POST, GOLD, 75ms, CPU Load: 62.50%, Memory Load: 3.318512GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:43, 338924d1-2471-4485-96b3-a974380d463b, /api/v1/pets, GET, GOLD, 47ms, CPU Load: 64.71%, Memory Load: 3.318752GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:43, 60c0014f-9374-40a2-8fdf-ff7f813396e6, /api/v1/visits, GET, GOLD, 33ms, CPU Load: 45.45%, Memory Load: 3.318752GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:43, 07757285-f32e-4cb4-9077-0d1ce937ba52, /api/v1/pets/153, DELETE, GOLD, 41ms, CPU Load: 75.00%, Memory Load: 3.318752GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:44, a9221ac0-829d-4980-9f7b-97f0c4c63dd2, /api/v1/pets, GET, GOLD, 20ms, CPU Load: 0.00%, Memory Load: 3.318752GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:11:44, bf50f277-da58-434d-b3e5-d43b5f483baa, /api/v1/visits, GET, GOLD, 29ms, CPU Load: 62.50%, Memory Load: 3.318993GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:03, ee6aff21-5f9d-4dd5-a561-1a83747c0e45, /api/v1/clinics, GET, null, 17ms, CPU Load: 75.00%, Memory Load: 3.303093GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:03, b8727108-2e6f-4e95-a3ca-6bae624c95f5, /api/v1/auth/signup, POST, null, 8ms, CPU Load: 50.00%, Memory Load: 3.303093GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:03, ce96fec3-4a0b-4849-aa9a-d344542074b7, /api/v1/auth/signin, POST, null, 169ms, CPU Load: 66.67%, Memory Load: 3.303093GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:04, 7a56477e-9df8-48ce-b561-c7148758ea8f, /api/v1/pets, GET, GOLD, 22ms, CPU Load: 52.94%, Memory Load: 3.304295GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:04, 0c728d57-e7f0-44e0-9075-b6cad8af7188, /api/v1/visits, GET, GOLD, 19ms, CPU Load: 50.00%, Memory Load: 3.304295GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:04, fade2e17-95f3-4df7-bbd1-4e1eb3e2ab3a, /api/v1/pets/types, GET, GOLD, 27ms, CPU Load: 50.00%, Memory Load: 3.304535GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:05, 0dc52007-636e-4915-b6ca-8e94de701c62, /api/v1/pets, POST, GOLD, 69ms, CPU Load: 75.00%, Memory Load: 3.304535GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:05, e16f35d5-e5cf-4b48-8f2c-3e20c4ad015e, /api/v1/pets, GET, GOLD, 71ms, CPU Load: 100.00%, Memory Load: 3.304535GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:05, 92f1232e-ca6a-493b-bbde-556caa89ccea, /api/v1/visits, GET, GOLD, 17ms, CPU Load: 60.00%, Memory Load: 3.305016GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:06, 5dcd33cf-32db-4d7b-8a00-aa4958dafa3f, /api/v1/pets/154, DELETE, GOLD, 42ms, CPU Load: 100.00%, Memory Load: 3.305016GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:06, d842c226-d1c8-4616-ae03-d506b26cbcf5, /api/v1/pets, GET, GOLD, 20ms, CPU Load: 63.16%, Memory Load: 3.305016GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:06, f1e75c61-c1ef-4621-b4f7-6659767e1038, /api/v1/visits, GET, GOLD, 45ms, CPU Load: 75.00%, Memory Load: 3.305016GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:37, 3ee7e125-1402-48ce-a33b-efa5938ad95c, /api/v1/clinics, GET, null, 12ms, CPU Load: 100.00%, Memory Load: 3.346176GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:37, 8aecd0a0-31d3-4227-a0dc-f5bed02bc165, /api/v1/auth/signup, POST, null, 7ms, CPU Load: 54.55%, Memory Load: 3.347137GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:37, d501ba1b-b33b-4292-9f91-a8d2f34f07ee, /api/v1/auth/signin, POST, null, 256ms, CPU Load: 62.50%, Memory Load: 3.347137GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:38, fcb82cea-6d45-43f0-bf7e-4745ab5b2c26, /api/v1/pets, GET, GOLD, 27ms, CPU Load: 40.00%, Memory Load: 3.350742GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:38, 6383101d-aa24-43fb-bf05-66144db471c1, /api/v1/visits, GET, GOLD, 28ms, CPU Load: 66.67%, Memory Load: 3.351463GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:39, 007adce9-97e2-46ab-b541-c56f859cfa84, /api/v1/pets/types, GET, GOLD, 21ms, CPU Load: 62.50%, Memory Load: 3.351463GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:39, 9d28d808-707c-4e76-8d54-21eb3e7dd7bd, /api/v1/pets, POST, GOLD, 35ms, CPU Load: 70.00%, Memory Load: 3.351463GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:40, ae2bd75b-0978-4bc5-87be-b66222322445, /api/v1/pets, GET, GOLD, 39ms, CPU Load: 70.59%, Memory Load: 3.351337GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:40, 6e327628-471d-4955-8050-e99a98669b89, /api/v1/visits, GET, GOLD, 40ms, CPU Load: 50.00%, Memory Load: 3.351276GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:40, 7a8fccf2-edd7-4b6f-a3bd-075f559927b5, /api/v1/pets/155, DELETE, GOLD, 32ms, CPU Load: 57.14%, Memory Load: 3.349594GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:40, f63fb5e2-cc3a-42c1-b198-e3e28e3e7b3f, /api/v1/pets, GET, GOLD, 24ms, CPU Load: 100.00%, Memory Load: 3.349834GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:12:41, 5dfd4151-6d51-4fc3-9bc6-acc5b0289c27, /api/v1/visits, GET, GOLD, 50ms, CPU Load: 62.50%, Memory Load: 3.349834GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:51, 8c311fd9-a644-44b5-a84c-c08c7c23906d, /api/v1/clinics, GET, null, 360ms, CPU Load: 33.33%, Memory Load: 3.326591GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:52, 2f95a1de-d16a-4e4f-b54e-99b201725c36, /api/v1/auth/signup, POST, null, 451ms, CPU Load: 55.00%, Memory Load: 3.328514GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:53, 9fc527d5-2ae8-41d1-add7-1cccda261a42, /api/v1/auth/signin, POST, null, 532ms, CPU Load: 50.00%, Memory Load: 3.331158GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:53, 49bb1027-d5e7-4ff0-b2e8-06834d0ee2c1, /api/v1/pets, GET, PLATINUM, 56ms, CPU Load: 60.00%, Memory Load: 3.333202GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:53, 3048f90d-fc29-4a98-8a91-d3fc0b63b714, /api/v1/visits, GET, PLATINUM, 57ms, CPU Load: 62.50%, Memory Load: 3.333321GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:54, 879296ca-544d-4052-a8d6-aeee5d0b9086, /api/v1/pets/types, GET, PLATINUM, 64ms, CPU Load: 47.37%, Memory Load: 3.333740GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:55, c1b3d107-c46d-4957-a2ea-2063d40a77e1, /api/v1/pets, POST, PLATINUM, 158ms, CPU Load: 62.50%, Memory Load: 3.334282GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:55, 15a0f0cf-c622-4db1-9b72-ff1d5d8fb08b, /api/v1/pets, GET, PLATINUM, 38ms, CPU Load: 87.50%, Memory Load: 3.334522GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:55, db6e1bbd-365d-4a42-a142-656f251e9cc9, /api/v1/visits, GET, PLATINUM, 13ms, CPU Load: 66.67%, Memory Load: 3.334522GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:56, 2992871c-102b-494a-b920-fdfad6386049, /api/v1/pets/151, DELETE, PLATINUM, 95ms, CPU Load: 50.00%, Memory Load: 3.335243GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:56, f3514dcc-d979-4d9d-b15a-f29a08f3c011, /api/v1/pets, GET, PLATINUM, 39ms, CPU Load: 80.00%, Memory Load: 3.335484GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:14:57, f9f9845a-bb8d-404c-a7e4-3a5479c6c7a4, /api/v1/visits, GET, PLATINUM, 76ms, CPU Load: 73.68%, Memory Load: 3.335484GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:25, 5b4203c4-1152-44aa-9ffe-9aabb5663157, /api/v1/clinics, GET, null, 10ms, CPU Load: 33.33%, Memory Load: 3.355919GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:25, c09d2455-743f-468b-8bd6-fa4fad6292bb, /api/v1/auth/signup, POST, null, 21ms, CPU Load: 75.00%, Memory Load: 3.355919GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:26, 56a6300e-799d-464b-87f2-d907bf154917, /api/v1/auth/signin, POST, null, 190ms, CPU Load: 57.14%, Memory Load: 3.355919GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:26, e04ce549-fdbc-4e50-b188-d6dae8774e3f, /api/v1/pets, GET, PLATINUM, 35ms, CPU Load: 66.67%, Memory Load: 3.358143GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:26, 8f07d091-806e-43e9-98ac-372570666f40, /api/v1/visits, GET, PLATINUM, 59ms, CPU Load: 88.89%, Memory Load: 3.358322GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:27, 9e52c712-ddcd-4bc3-995b-5bd038471ccf, /api/v1/pets/types, GET, PLATINUM, 17ms, CPU Load: 57.14%, Memory Load: 3.358562GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:27, b06e7502-2f15-426f-bf08-e334ef5e99af, /api/v1/pets, POST, PLATINUM, 33ms, CPU Load: 50.00%, Memory Load: 3.358803GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:28, 19826b53-72ff-41cf-a750-a7b9dc67bf91, /api/v1/pets, GET, PLATINUM, 44ms, CPU Load: 61.11%, Memory Load: 3.359043GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:28, b593fb74-28c4-402b-9af7-ba3372faf83c, /api/v1/visits, GET, PLATINUM, 14ms, CPU Load: 72.00%, Memory Load: 3.359043GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:28, 3e13705f-2ca1-43f9-8a7b-fe21d0e27ee3, /api/v1/pets/152, DELETE, PLATINUM, 42ms, CPU Load: 60.00%, Memory Load: 3.359043GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:29, 3d510e01-191d-4893-a815-e84782adb2c8, /api/v1/pets, GET, PLATINUM, 46ms, CPU Load: 80.95%, Memory Load: 3.359406GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:29, 6c871b94-7c22-48e9-b5be-f703eb818bbf, /api/v1/visits, GET, PLATINUM, 26ms, CPU Load: 47.83%, Memory Load: 3.359524GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:51, b83cedd9-724f-4db5-ba48-0ef6ba4b6651, /api/v1/clinics, GET, null, 17ms, CPU Load: 0.00%, Memory Load: 3.349945GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:51, 24419f84-4f1a-4b28-ae2b-c843509fbe24, /api/v1/auth/signup, POST, null, 30ms, CPU Load: 55.56%, Memory Load: 3.349945GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:51, 6899c6a9-170c-456a-8e9b-ebc39971262d, /api/v1/auth/signin, POST, null, 181ms, CPU Load: 60.00%, Memory Load: 3.350185GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:51, 5e79a673-dc7c-467e-baa2-7eefbbb8aa6f, /api/v1/pets, GET, PLATINUM, 11ms, CPU Load: 58.82%, Memory Load: 3.351868GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:52, 16d30611-174c-4c6a-9ec1-8af09dc066cc, /api/v1/visits, GET, PLATINUM, 38ms, CPU Load: 68.18%, Memory Load: 3.351868GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:52, 965985ff-398a-49f0-b123-ad76e7a6544f, /api/v1/pets/types, GET, PLATINUM, 12ms, CPU Load: 0.00%, Memory Load: 3.352108GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:52, a9644439-fe6d-40cf-b077-3b483a1da6f6, /api/v1/pets, POST, PLATINUM, 29ms, CPU Load: 55.56%, Memory Load: 3.352348GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:53, 99b44893-b651-440c-8851-d2816f475cdf, /api/v1/pets, GET, PLATINUM, 25ms, CPU Load: 53.85%, Memory Load: 3.352589GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:53, 41325ef1-3215-431f-90e3-5830a1aae910, /api/v1/visits, GET, PLATINUM, 48ms, CPU Load: 65.22%, Memory Load: 3.352589GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:53, 9239f9ff-7fe3-422c-8e5d-dce582ea3c43, /api/v1/pets/153, DELETE, PLATINUM, 19ms, CPU Load: 50.00%, Memory Load: 3.352589GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:53, 32ee08b9-ad89-4be3-8921-da2ff4e47470, /api/v1/pets, GET, PLATINUM, 13ms, CPU Load: 100.00%, Memory Load: 3.352589GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:15:54, 4fb5413c-d03c-4679-925f-c2b7ca508a3d, /api/v1/visits, GET, PLATINUM, 27ms, CPU Load: 60.00%, Memory Load: 3.352589GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:22, 0a02fba9-ca3a-4934-a0e4-4d40bb99132c, /api/v1/clinics, GET, null, 8ms, CPU Load: 50.00%, Memory Load: 3.345169GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:22, 8844171c-2fee-49d8-9aff-1e52ff643c94, /api/v1/auth/signup, POST, null, 8ms, CPU Load: 37.50%, Memory Load: 3.345169GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:22, 214c6e9f-d9cb-4a4b-a14a-7afc5dbbf8b2, /api/v1/auth/signin, POST, null, 215ms, CPU Load: 100.00%, Memory Load: 3.345383GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:22, 2d655a7c-85dd-4289-b45b-be282e0bb759, /api/v1/pets, GET, PLATINUM, 10ms, CPU Load: 50.00%, Memory Load: 3.346104GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:22, 5965e595-0317-48ce-a27d-fc0d5471a5f2, /api/v1/visits, GET, PLATINUM, 10ms, CPU Load: 33.33%, Memory Load: 3.346104GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:23, bb17eec9-c189-4e6f-9108-8a2e7f531e2d, /api/v1/pets/types, GET, PLATINUM, 8ms, CPU Load: 50.00%, Memory Load: 3.346104GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:23, 8d8cb957-f205-4949-8043-915a87a351eb, /api/v1/pets, POST, PLATINUM, 53ms, CPU Load: 66.67%, Memory Load: 3.346104GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:24, e8528bbd-1fe4-4669-a66d-10c1ea281574, /api/v1/pets, GET, PLATINUM, 36ms, CPU Load: 70.00%, Memory Load: 3.346104GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:24, 03744f6c-3c4e-481d-bdbb-2681eed6c6a4, /api/v1/visits, GET, PLATINUM, 11ms, CPU Load: 75.00%, Memory Load: 3.346344GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:24, b2d1b6a3-918b-43ec-96ae-8779f8c63174, /api/v1/pets/154, DELETE, PLATINUM, 14ms, CPU Load: 71.43%, Memory Load: 3.346344GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:24, 17d3a725-227d-4bc2-b4c7-c50635554ce3, /api/v1/pets, GET, PLATINUM, 25ms, CPU Load: 50.00%, Memory Load: 3.346344GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:24, 639f0adc-d3d9-401f-af4c-1b79f5e985ec, /api/v1/visits, GET, PLATINUM, 40ms, CPU Load: 60.00%, Memory Load: 3.346344GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:46, b87c6aed-e144-4995-8f68-189b670da7b1, /api/v1/clinics, GET, null, 7ms, CPU Load: 50.00%, Memory Load: 3.345913GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:46, b3c270ce-20ff-4775-a677-89ee4c200280, /api/v1/auth/signup, POST, null, 6ms, CPU Load: 41.67%, Memory Load: 3.345913GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:46, 64ac3532-ccad-47f8-a875-640b71e0b518, /api/v1/auth/signin, POST, null, 165ms, CPU Load: 61.54%, Memory Load: 3.345913GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:47, 0d027ffd-dbb1-480b-a664-e05eb63536ac, /api/v1/pets, GET, PLATINUM, 12ms, CPU Load: 53.85%, Memory Load: 3.347115GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:47, e85b8a00-6fe7-4dc0-82d8-b0d0fec2e192, /api/v1/visits, GET, PLATINUM, 12ms, CPU Load: 57.14%, Memory Load: 3.347355GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:47, bca31a96-ffc3-42ef-84f9-f1c63dc10e4e, /api/v1/pets/types, GET, PLATINUM, 8ms, CPU Load: 53.85%, Memory Load: 3.347355GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:48, 45ea207b-4a08-4007-9de9-4c45e23b15ed, /api/v1/pets, POST, PLATINUM, 31ms, CPU Load: 56.52%, Memory Load: 3.347355GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:48, ee71ad39-1d2d-4877-beff-eadcdf778cc1, /api/v1/pets, GET, PLATINUM, 28ms, CPU Load: 55.56%, Memory Load: 3.347355GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:48, 8178de33-ba18-4384-9121-eabb88afef01, /api/v1/visits, GET, PLATINUM, 11ms, CPU Load: 66.67%, Memory Load: 3.347595GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:49, 2cf7a512-61c0-4c1e-b1c1-45a0dc0ab519, /api/v1/pets/155, DELETE, PLATINUM, 28ms, CPU Load: 63.64%, Memory Load: 3.347595GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:49, da3c8350-5eca-4bed-aead-8b7b2065b245, /api/v1/pets, GET, PLATINUM, 12ms, CPU Load: 58.33%, Memory Load: 3.348316GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:16:49, 4a7df936-1ab6-49b2-abc9-e9a10c17b8c1, /api/v1/visits, GET, PLATINUM, 31ms, CPU Load: 50.00%, Memory Load: 3.348316GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:09, 4a45d6e9-5bdb-4b79-b0f6-64380bdccef5, /api/v1/clinics, GET, null, 11ms, CPU Load: 40.91%, Memory Load: 3.369072GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:09, 87eed37a-467a-48e4-b867-41b89fe63e23, /api/v1/auth/signup, POST, null, 15ms, CPU Load: 44.00%, Memory Load: 3.369312GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:09, 942488d6-ba0f-4ff8-9eaa-36df9e523a74, /api/v1/auth/signin, POST, null, 190ms, CPU Load: 55.56%, Memory Load: 3.373638GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:09, 96ed5e16-bcd6-48f0-ae56-84243e959a26, /api/v1/pets, GET, PLATINUM, 11ms, CPU Load: 55.56%, Memory Load: 3.375080GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:10, ba385225-2ba8-4ca8-a144-a150b77dfb6f, /api/v1/visits, GET, PLATINUM, 22ms, CPU Load: 83.33%, Memory Load: 3.375561GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:10, 86d2cd1d-be0c-4562-9845-799e1860d2d7, /api/v1/pets/types, GET, PLATINUM, 17ms, CPU Load: 50.00%, Memory Load: 3.377724GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:10, 941435f5-cf11-4585-ad17-9d1186752c89, /api/v1/pets, POST, PLATINUM, 32ms, CPU Load: 64.29%, Memory Load: 3.379646GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:11, 87c674d5-524b-481a-addc-68e29a252332, /api/v1/pets, GET, PLATINUM, 20ms, CPU Load: 45.45%, Memory Load: 3.380608GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:11, 77226f26-50ba-4ce0-abb7-79dadf9f5686, /api/v1/visits, GET, PLATINUM, 38ms, CPU Load: 100.00%, Memory Load: 3.380848GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:11, 1d83cfb1-ea99-49d7-9ba5-d024cedc41a3, /api/v1/pets/156, DELETE, PLATINUM, 57ms, CPU Load: 33.33%, Memory Load: 3.380848GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:11, b1908e8b-68e2-46d4-bf75-0b73d9c42d54, /api/v1/pets, GET, PLATINUM, 9ms, CPU Load: 0.00%, Memory Load: 3.381088GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:17:12, e50c88c9-ceae-4cda-aaf3-e6f771145cc0, /api/v1/visits, GET, PLATINUM, 19ms, CPU Load: 0.00%, Memory Load: 3.381088GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:34, 8071b1d3-bbdc-4090-b723-c0fbcc945f50, /api/v1/clinics, GET, null, 597ms, CPU Load: 37.50%, Memory Load: 3.256519GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:35, 3386bf81-edf6-4a4b-952b-6aa74c54b148, /api/v1/auth/signup, POST, null, 585ms, CPU Load: 42.86%, Memory Load: 3.269737GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:36, 8c96dba6-e864-4ab7-9934-ec5440710073, /api/v1/auth/signin, POST, null, 740ms, CPU Load: 40.00%, Memory Load: 3.284637GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:36, effa671c-c5ba-41be-a38a-27d5c84d9095, /api/v1/pets, GET, BASIC, 96ms, CPU Load: 0.00%, Memory Load: 3.287521GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:37, 5b44796e-358f-4bfc-9ec0-7450d66fcb6f, /api/v1/visits, GET, BASIC, 70ms, CPU Load: 73.33%, Memory Load: 3.290405GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:38, 41ac8e0c-9b30-4136-86dd-11edac8909e0, /api/v1/pets/types, GET, BASIC, 65ms, CPU Load: 56.52%, Memory Load: 3.292568GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:38, 2f132646-a15c-4308-84be-340519952060, /api/v1/pets, POST, BASIC, 216ms, CPU Load: 53.85%, Memory Load: 3.295906GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:39, 95b33b9f-4ab6-49ca-a417-090bb2663aba, /api/v1/pets, GET, BASIC, 49ms, CPU Load: 76.92%, Memory Load: 3.295906GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:39, 1f7f4251-341d-4018-9271-f4aab971e00e, /api/v1/visits, GET, BASIC, 41ms, CPU Load: 25.00%, Memory Load: 3.296600GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:40, 27483fe5-7019-47dd-9166-7dae6918e056, /api/v1/pets/151, DELETE, BASIC, 141ms, CPU Load: 40.00%, Memory Load: 3.298283GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:40, f31b02c8-d1d7-40f3-82d7-88969f70c826, /api/v1/pets, GET, BASIC, 40ms, CPU Load: 66.67%, Memory Load: 3.300205GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:22:41, c8e1a5c5-e8c3-481a-b6b6-373421c08809, /api/v1/visits, GET, BASIC, 71ms, CPU Load: 100.00%, Memory Load: 3.302128GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:22, f5cf8057-69ef-4b06-99da-11f792c8623e, /api/v1/clinics, GET, null, 15ms, CPU Load: 30.00%, Memory Load: 3.351013GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:22, f82e7a3c-b4e5-4222-be8b-bb7ddb64042e, /api/v1/auth/signup, POST, null, 14ms, CPU Load: 34.48%, Memory Load: 3.351013GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:22, 5c399491-2a8c-4e09-aafd-b1c8d18528cb, /api/v1/auth/signin, POST, null, 279ms, CPU Load: 80.00%, Memory Load: 3.351013GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:23, bc362291-a947-4fbf-b206-902079709363, /api/v1/pets, GET, BASIC, 38ms, CPU Load: 75.00%, Memory Load: 3.350960GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:23, 6be53900-95ee-4578-a69a-2505a0f63ed4, /api/v1/visits, GET, BASIC, 19ms, CPU Load: 63.64%, Memory Load: 3.350960GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:24, 33ae5f11-ecd7-4cb8-a1c4-94e32171a812, /api/v1/pets/types, GET, BASIC, 21ms, CPU Load: 57.14%, Memory Load: 3.350960GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:24, 1a482321-0a7a-4c0d-9914-8d5f12c1fa07, /api/v1/pets, POST, BASIC, 65ms, CPU Load: 57.14%, Memory Load: 3.349571GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:25, 4c32581b-aa41-4c51-a753-7dfc1f920994, /api/v1/pets, GET, BASIC, 39ms, CPU Load: 66.67%, Memory Load: 3.349571GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:25, 3d182aec-440f-4902-bea3-3f436861f28b, /api/v1/visits, GET, BASIC, 17ms, CPU Load: 65.00%, Memory Load: 3.349571GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:26, d3397f3b-2878-4c24-9ca5-7138c018de85, /api/v1/pets/152, DELETE, BASIC, 96ms, CPU Load: 66.67%, Memory Load: 3.348721GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:26, d9cebbd7-cf9b-4dd8-aec0-a6478bee98fc, /api/v1/pets, GET, BASIC, 81ms, CPU Load: 77.78%, Memory Load: 3.348721GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:23:26, 1f9d9008-6976-4634-a1ac-69afeb9cb676, /api/v1/visits, GET, BASIC, 35ms, CPU Load: 55.00%, Memory Load: 3.347332GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:17, 0b942d62-2df7-4905-a10e-a5aa7b9c57a5, /api/v1/clinics, GET, null, 10ms, CPU Load: 41.18%, Memory Load: 3.338215GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:17, 64d77b5a-59c2-4369-bc71-64c551063d2a, /api/v1/auth/signup, POST, null, 10ms, CPU Load: 33.33%, Memory Load: 3.338215GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:17, fb544d22-1788-4937-bc10-a4e62bcb2400, /api/v1/auth/signin, POST, null, 220ms, CPU Load: 52.38%, Memory Load: 3.338215GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:18, b7e68096-cfa1-44f2-91ba-718c7fef829b, /api/v1/pets, GET, BASIC, 49ms, CPU Load: 66.67%, Memory Load: 3.338936GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:18, 6c95407a-6f33-43e9-9c34-bd636f52c081, /api/v1/visits, GET, BASIC, 37ms, CPU Load: 66.67%, Memory Load: 3.339176GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:19, bc7b216f-9867-4829-af56-359190549b41, /api/v1/pets/types, GET, BASIC, 15ms, CPU Load: 50.00%, Memory Load: 3.339417GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:19, f1b84082-1e7f-4713-81bb-5ea6293ee474, /api/v1/pets, POST, BASIC, 92ms, CPU Load: 60.00%, Memory Load: 3.339417GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:20, 71b814e9-b93f-4807-b594-83e8352d4a42, /api/v1/pets, GET, BASIC, 76ms, CPU Load: 60.00%, Memory Load: 3.339417GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:20, 42c29dcd-eee3-4673-bfbf-803148f1597a, /api/v1/visits, GET, BASIC, 40ms, CPU Load: 75.00%, Memory Load: 3.339657GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:20, ff66e11c-7bbc-4dda-9272-bfe863a7df88, /api/v1/pets/153, DELETE, BASIC, 83ms, CPU Load: 60.00%, Memory Load: 3.339657GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:21, 3ae0f795-6425-438d-af20-0f1398b6cf7b, /api/v1/pets, GET, BASIC, 27ms, CPU Load: 57.14%, Memory Load: 3.339657GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:21, 0f6d301f-ec9d-401e-b317-43910a17762d, /api/v1/visits, GET, BASIC, 84ms, CPU Load: 78.57%, Memory Load: 3.339657GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:43, 4a124918-9e4d-44e5-a725-b54f92e01a92, /api/v1/clinics, GET, null, 11ms, CPU Load: 50.00%, Memory Load: 3.326324GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:43, fb867331-a2a4-4ceb-a3ae-38f2e0fad100, /api/v1/auth/signup, POST, null, 9ms, CPU Load: 41.67%, Memory Load: 3.326324GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:43, a7d8c96c-1d01-41f0-b47c-bf07f285e7f4, /api/v1/auth/signin, POST, null, 199ms, CPU Load: 66.67%, Memory Load: 3.326324GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:44, c32ead39-3f42-4cd9-abab-cc50dcbd3393, /api/v1/pets, GET, BASIC, 12ms, CPU Load: 50.00%, Memory Load: 3.328007GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:44, 460b3a67-1ebe-4bd7-8937-32811b2912ae, /api/v1/visits, GET, BASIC, 37ms, CPU Load: 64.00%, Memory Load: 3.328247GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:44, d8b410b9-9db4-46a2-acaa-0bec8d660594, /api/v1/pets/types, GET, BASIC, 14ms, CPU Load: 61.54%, Memory Load: 3.328247GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:45, c78325ed-2dbf-47eb-bb8a-2d11de04b5bd, /api/v1/pets, POST, BASIC, 54ms, CPU Load: 63.16%, Memory Load: 3.328487GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:45, b5176460-76f7-44d2-892f-0c3c120257f9, /api/v1/pets, GET, BASIC, 64ms, CPU Load: 100.00%, Memory Load: 3.328728GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:46, b8e157b7-9ff6-44ad-b970-1d447429f751, /api/v1/visits, GET, BASIC, 124ms, CPU Load: 100.00%, Memory Load: 3.328968GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:46, 4870a26d-0824-465b-b48c-110494e34994, /api/v1/pets/154, DELETE, BASIC, 16ms, CPU Load: 55.00%, Memory Load: 3.329208GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:46, cb0b6516-1d77-44ca-b23b-fb223e9af1dd, /api/v1/pets, GET, BASIC, 32ms, CPU Load: 63.64%, Memory Load: 3.329208GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:24:46, 5e17dad0-b6c2-4f59-a14d-5b3dfbff314b, /api/v1/visits, GET, BASIC, 31ms, CPU Load: 50.00%, Memory Load: 3.329208GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:11, 188f8dc4-4675-4c4a-8a8c-2c467ae2399e, /api/v1/clinics, GET, null, 9ms, CPU Load: 38.71%, Memory Load: 3.336845GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:12, 1e30ef62-a434-43f2-b4c5-ac9d779fb52f, /api/v1/auth/signup, POST, null, 7ms, CPU Load: 33.33%, Memory Load: 3.336845GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:12, 341dab27-0438-4b34-96ae-df373d06b597, /api/v1/auth/signin, POST, null, 168ms, CPU Load: 28.57%, Memory Load: 3.336845GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:12, 2eddaf8d-b52f-41a5-9a1f-9d4bd3346387, /api/v1/pets, GET, BASIC, 14ms, CPU Load: 64.29%, Memory Load: 3.337540GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:13, 3da47e1d-dd03-4f4d-93df-e2060e79deee, /api/v1/visits, GET, BASIC, 22ms, CPU Load: 50.00%, Memory Load: 3.337540GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:13, 2480346a-6b6e-4fd8-9e8a-4d3a5de57a34, /api/v1/pets/types, GET, BASIC, 26ms, CPU Load: 100.00%, Memory Load: 3.337780GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:13, f6ceba05-b849-4db9-bb24-ecfcff623404, /api/v1/pets, POST, BASIC, 19ms, CPU Load: 62.50%, Memory Load: 3.338501GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:14, ce6f1f8b-7cad-4272-af7f-8814609271cf, /api/v1/pets, GET, BASIC, 12ms, CPU Load: 42.86%, Memory Load: 3.338501GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:14, 6d65a788-4b52-46f0-8a51-3a1e633522f8, /api/v1/visits, GET, BASIC, 35ms, CPU Load: 64.29%, Memory Load: 3.338741GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:15, c5174ec6-ad6b-4e5f-9e59-bbe767fffa0c, /api/v1/pets/155, DELETE, BASIC, 129ms, CPU Load: 100.00%, Memory Load: 3.338623GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:15, 14d4e293-49b9-4f39-9228-919fd0b36e25, /api/v1/pets, GET, BASIC, 36ms, CPU Load: 50.00%, Memory Load: 3.338623GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:15, 61ff3b41-8280-4130-86d3-f42fb4018359, /api/v1/visits, GET, BASIC, 27ms, CPU Load: 100.00%, Memory Load: 3.338623GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:35, 9ff25a7b-f83a-4fc7-8fec-5efb3b1ccceb, /api/v1/clinics, GET, null, 7ms, CPU Load: 42.42%, Memory Load: 3.347549GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:35, a080c892-ce40-4b5e-8110-e638d79bf6d3, /api/v1/auth/signup, POST, null, 13ms, CPU Load: 38.71%, Memory Load: 3.348511GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:35, 8ab894da-8f8c-485c-af2e-e6904f8b5757, /api/v1/auth/signin, POST, null, 171ms, CPU Load: 66.67%, Memory Load: 3.348511GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:35, b7a49a9b-ad9c-4bf0-9f56-b83615889032, /api/v1/pets, GET, BASIC, 36ms, CPU Load: 68.00%, Memory Load: 3.353798GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:36, d656db7b-9a90-4070-9cad-2027a3736cba, /api/v1/visits, GET, BASIC, 15ms, CPU Load: 100.00%, Memory Load: 3.353798GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:36, efa144f7-a515-40c8-91e9-566328a953b8, /api/v1/pets/types, GET, BASIC, 43ms, CPU Load: 72.73%, Memory Load: 3.353798GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:37, ef74e532-6bd3-484e-888d-7257ec4a6271, /api/v1/pets, POST, BASIC, 39ms, CPU Load: 100.00%, Memory Load: 3.353798GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:37, b95ba42c-01b2-4100-bf06-5a6c94531112, /api/v1/pets, GET, BASIC, 54ms, CPU Load: 64.71%, Memory Load: 3.353798GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:37, ed2fb82e-3eed-4c66-a938-0a603db0b6e7, /api/v1/visits, GET, BASIC, 27ms, CPU Load: 57.14%, Memory Load: 3.354038GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:38, f6097848-1886-48f7-bee9-19c88df1da0b, /api/v1/pets/156, DELETE, BASIC, 55ms, CPU Load: 55.56%, Memory Load: 3.354038GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:38, 79904391-66d4-4b1f-a08b-ab5459080a80, /api/v1/pets, GET, BASIC, 30ms, CPU Load: 45.45%, Memory Load: 3.354038GB
+Timestamp, Request ID, URI, Method, Pricing, Elapsed Time, CPU Load, Memory Load
+2024-09-06 14:25:38, 1485d09f-e9ad-49c3-abe1-95735d3adb21, /api/v1/visits, GET, BASIC, 66ms, CPU Load: 73.33%, Memory Load: 3.354099GB
