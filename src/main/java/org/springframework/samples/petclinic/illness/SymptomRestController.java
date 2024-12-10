@@ -30,8 +30,8 @@ public class SymptomRestController {
 	private final SymptomService symptomService;
 
 	@Autowired
-	public SymptomRestController(SymptomService clinicService) {
-		this.symptomService = clinicService;
+	public SymptomRestController(SymptomService symptomService) {
+		this.symptomService = symptomService;
 	}
 
 	@GetMapping
