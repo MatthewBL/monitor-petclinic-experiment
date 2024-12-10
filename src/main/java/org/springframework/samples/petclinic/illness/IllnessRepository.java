@@ -15,26 +15,18 @@
  */
 package org.springframework.samples.petclinic.illness;
 
-import java.util.Collection;
 import java.util.List;
-import java.util.Map;
-import java.util.Optional;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
-import org.springframework.samples.petclinic.clinic.PricingPlan;
-import org.springframework.samples.petclinic.pet.Pet;
 
-/**
- * Spring Data JPA OwnerRepository interface
- *
- * @author Michael Isvy
- * @since 15.1.2013
- */
 public interface IllnessRepository extends CrudRepository<Illness, Integer> {
 
-	@Query("SELECT COUNT(s) FROM Illness s")
+	@Query("SELECT COUNT(i) FROM Illness i")
 	public Integer countAll();
+
+	@Query("SELECT i FROM Illness i JOIN i.symptoms s WHERE s.name IN :symptoms")
+	List<Illness> findIllnessesBySymptoms(@Param("symptoms") List<String> symptoms);
 
 }

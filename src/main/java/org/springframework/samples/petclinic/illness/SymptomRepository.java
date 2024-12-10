@@ -15,23 +15,9 @@
  */
 package org.springframework.samples.petclinic.illness;
 
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.query.Param;
-import org.springframework.samples.petclinic.clinic.PricingPlan;
-import org.springframework.samples.petclinic.pet.Pet;
 
-/**
- * Spring Data JPA OwnerRepository interface
- *
- * @author Michael Isvy
- * @since 15.1.2013
- */
 public interface SymptomRepository extends CrudRepository<Symptom, Integer> {
 
 	@Query("SELECT COUNT(s) FROM Symptom s")

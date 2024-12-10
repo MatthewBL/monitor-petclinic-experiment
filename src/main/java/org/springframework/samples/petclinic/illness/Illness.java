@@ -15,38 +15,30 @@
  */
 package org.springframework.samples.petclinic.illness;
 
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToOne;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
-import jakarta.validation.constraints.Digits;
-import jakarta.validation.constraints.NotEmpty;
+import jakarta.persistence.UniqueConstraint;
 
-import org.hibernate.annotations.OnDelete;
-import org.hibernate.annotations.OnDeleteAction;
-import org.springframework.samples.petclinic.clinic.Clinic;
+import java.util.List;
+
 import org.springframework.samples.petclinic.model.NamedEntity;
-import org.springframework.samples.petclinic.model.Person;
-import org.springframework.samples.petclinic.user.User;
 
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- * Simple JavaBean domain object representing an owner.
- *
- * @author Ken Krebs
- * @author Juergen Hoeller
- * @author Sam Brannen
- * @author Michael Isvy
- */
 @Entity
 @Getter
 @Setter
 @Table(name = "illness")
 public class Illness extends NamedEntity {
+
+	@ManyToMany(fetch = FetchType.EAGER)
+	@JoinTable(name = "illness_symptom", joinColumns = @JoinColumn(name = "illness_id"), inverseJoinColumns = @JoinColumn(name = "symptom_id"), uniqueConstraints = {
+			@UniqueConstraint(columnNames = { "illness_id", "symptom_id" }) })
+	private List<Symptom> symptoms;
 
 }

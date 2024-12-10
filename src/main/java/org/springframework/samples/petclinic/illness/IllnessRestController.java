@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -69,5 +70,10 @@ public class IllnessRestController {
 		illnessService.deleteIllness(id);
 		return new ResponseEntity<>(new MessageResponse("Illness deleted!"), HttpStatus.OK);
 	}
+
+	@GetMapping("/illnesses")
+    public List<Illness> getIllnesses(@RequestParam List<String> symptoms) {
+        return illnessService.findIllnessesBySymptoms(symptoms);
+    }
 
 }

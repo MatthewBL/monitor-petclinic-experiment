@@ -15,13 +15,7 @@
  */
 package org.springframework.samples.petclinic.illness;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,6 +42,11 @@ public class IllnessService {
 	@Transactional(readOnly = true)
 	public Illness findIllnessById(int id) throws DataAccessException {
 		return illnessRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Illness", "ID", id));
+	}
+
+	@Transactional(readOnly = true)
+	public List<Illness> findIllnessesBySymptoms(List<String> symptoms) throws DataAccessException {
+		return illnessRepository.findIllnessesBySymptoms(symptoms);
 	}
 
 	@Transactional
