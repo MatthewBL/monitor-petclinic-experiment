@@ -20,7 +20,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
@@ -72,7 +71,7 @@ class IllnessServiceTests {
 
 	@Test
 	void shouldFindIllnessesWithSymptoms() {
-		List<String> symptoms = Collections.singletonList("Fever");
+		List<String> symptoms = Collections.singletonList("fever");
 		Collection<Illness> illnesses = (Collection<Illness>) this.illnessService.findIllnessesBySymptoms(symptoms);
 
 		Illness illness = EntityUtils.getById(illnesses, Illness.class, 0);
