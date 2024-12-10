@@ -50,8 +50,8 @@ class IllnessServiceTests {
 	void shouldFindIllnesses() {
 		Collection<Illness> illnesses = (Collection<Illness>) this.illnessService.findAll();
 
-		Illness illness = EntityUtils.getById(illnesses, Illness.class, 1);
-		assertEquals("Illness1", illness.getName());
+		Illness illness = EntityUtils.getById(illnesses, Illness.class, 2);
+		assertEquals("Illness2", illness.getName());
 		assertEquals(2, illness.getSymptoms().size());
 		assertEquals("fever", illness.getSymptoms().get(0).getName());
 		assertEquals("coughing", illness.getSymptoms().get(1).getName());
@@ -59,8 +59,8 @@ class IllnessServiceTests {
 
 	@Test
 	void shouldFindSingleIllness() {
-		Illness illness = this.illnessService.findIllnessById(0);
-		assertThat(illness.getName()).startsWith("Illness0");
+		Illness illness = this.illnessService.findIllnessById(1);
+		assertThat(illness.getName()).startsWith("Illness1");
 		assertEquals(1, illness.getSymptoms().size());
 	}
 
@@ -74,8 +74,8 @@ class IllnessServiceTests {
 		List<String> symptoms = Collections.singletonList("fever");
 		Collection<Illness> illnesses = (Collection<Illness>) this.illnessService.findIllnessesBySymptoms(symptoms);
 
-		Illness illness = EntityUtils.getById(illnesses, Illness.class, 0);
-		assertEquals("Illness0", illness.getName());
+		Illness illness = EntityUtils.getById(illnesses, Illness.class, 1);
+		assertEquals("Illness1", illness.getName());
 		assertEquals(1, illness.getSymptoms().size());
 		assertEquals("fever", illness.getSymptoms().get(0).getName());
 	}

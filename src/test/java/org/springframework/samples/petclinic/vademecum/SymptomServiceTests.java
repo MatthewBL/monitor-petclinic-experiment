@@ -54,8 +54,8 @@ class SymptomServiceTests {
 
 	@Test
 	void shouldFindSingleSymptom() {
-		Symptom symptom = this.symptomService.findSymptomById(0);
-		assertThat(symptom.getName()).startsWith("Fever");
+		Symptom symptom = this.symptomService.findSymptomById(1);
+		assertThat(symptom.getName()).startsWith("fever");
 	}
 
 	@Test
