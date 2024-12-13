@@ -22,6 +22,12 @@ features:
     defaultValue: false
     expression: planContext['features']['consultations']
     type: DOMAIN
+  vademecum:
+    description: Access to the Vademecum
+    valueType: BOOLEAN
+    defaultValue: false
+    expression: planContext['features']['vademecum']
+    type: DOMAIN
 usageLimits:
   maxPets:
     description: Max pet per owner threshold
@@ -50,7 +56,9 @@ plans:
     unit: user/month
     features:
       haveCalendar:
-        value: true      
+        value: true    
+      vademecum:
+        value: true  
     usageLimits:
       maxPets:
         value: 4
@@ -63,7 +71,9 @@ plans:
       haveCalendar:
         value: true  
       consultations:
-        value: true    
+        value: true 
+      vademecum:
+        value: true   
     usageLimits:
       maxPets:
         value: 7
