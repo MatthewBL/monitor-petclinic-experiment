@@ -21,8 +21,12 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.samples.petclinic.exceptions.ResourceNotFoundException;
+import org.springframework.samples.petclinic.pet.exceptions.DuplicatedPetNameException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import io.github.isagroup.annotations.PricingPlanAware;
+import io.github.isagroup.exceptions.PricingPlanEvaluationException;
 
 @Service
 public class IllnessService {
@@ -44,7 +48,8 @@ public class IllnessService {
 		return illnessRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Illness", "ID", id));
 	}
 
-	@Transactional(readOnly = true)
+	@PricingPlanAware(featureName = "vadecumRequests")
+	@Transactional(rollbackFor = { PricingPlanEvaluationException.class })
 	public List<Illness> findIllnessesBySymptoms(List<String> symptoms) throws DataAccessException {
 		return illnessRepository.findIllnessesBySymptoms(symptoms);
 	}

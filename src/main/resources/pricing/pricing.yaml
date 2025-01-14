@@ -23,10 +23,10 @@ features:
     expression: planContext['features']['consultations']
     type: DOMAIN
   vademecum:
-    description: Access to the Vademecum
+    description: Access to the vademecum
     valueType: BOOLEAN
     defaultValue: false
-    expression: planContext['features']['vademecum']
+    expression: planContext['usageLimits']['maxVademecumRequests'] > userContext['vadecumRequests']
     type: DOMAIN
 usageLimits:
   maxPets:
@@ -37,6 +37,14 @@ usageLimits:
     type: NON_RENEWABLE
     linkedFeatures:
     - pets
+  maxVademecumRequests:
+    description: Max vademecum requests per owner per month
+    valueType: NUMERIC
+    defaultValue: 2
+    unit: vadecumRequest
+    type: RENEWABLE
+    linkedFeatures:
+    - vademecum
 plans:
   BASIC:
     description: Basic plan

@@ -189,6 +189,7 @@ public class UserService {
 		context.put("username", username);
 		context.put("pets", pets.size());
 		context.put("visits", 0);
+		context.put("vademecumRequests", owner.getVademecumRequests());
 
 		return context;
 	}

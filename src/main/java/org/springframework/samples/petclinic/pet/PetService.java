@@ -30,6 +30,9 @@ import org.springframework.samples.petclinic.pet.exceptions.DuplicatedPetNameExc
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import io.github.isagroup.annotations.PricingPlanAware;
+import io.github.isagroup.exceptions.PricingPlanEvaluationException;
+
 @Service
 public class PetService {
 
@@ -75,7 +78,8 @@ public class PetService {
 		return petRepository.findAllPetsByUserId(id);
 	}
 
-	@Transactional(rollbackFor = DuplicatedPetNameException.class)
+	@PricingPlanAware(featureName = "pets")
+	@Transactional(rollbackFor = { PricingPlanEvaluationException.class, DuplicatedPetNameException.class })
 	public Pet savePet(Pet pet) throws DataAccessException, DuplicatedPetNameException {
 		Pet otherPet = getPetWithNameAndIdDifferent(pet);
 		if (otherPet != null && !otherPet.getId().equals(pet.getId())) {
@@ -110,27 +114,7 @@ public class PetService {
 		petRepository.deleteVisitsByPet(toDelete.getId());
 		petRepository.delete(toDelete);
 	}
-
-	public boolean underLimit(Owner owner) {
-		Integer petCount = this.petRepository.countPetsByOwner(owner.getId());
-		PricingPlan plan = owner.getClinic().getPlan();
-		switch (plan) {
-		case PLATINUM:
-			if (petCount < PLATINUM_LIMIT)
-				return true;
-			break;
-		case GOLD:
-			if (petCount < GOLD_LIMIT)
-				return true;
-			break;
-		default:
-			if (petCount < BASIC_LIMIT)
-				return true;
-			break;
-		}
-		return false;
-	}
-
+	
 	public Map<String, Object> getPetsStats() {
 		Map<String, Object> res = new HashMap<>();
 		Integer countAll = this.petRepository.countAll();
@@ -154,4 +138,25 @@ public class PetService {
 		});
 		return unsortedPetsByType;
 	}
+
+	public boolean underLimit(Owner owner) {
+		Integer petCount = this.petRepository.countPetsByOwner(owner.getId());
+		PricingPlan plan = owner.getClinic().getPlan();
+		switch (plan) {
+		case PLATINUM:
+			if (petCount < PLATINUM_LIMIT)
+				return true;
+			break;
+		case GOLD:
+			if (petCount < GOLD_LIMIT)
+				return true;
+			break;
+		default:
+			if (petCount < BASIC_LIMIT)
+				return true;
+			break;
+		}
+		return false;
+	}
+	
 }

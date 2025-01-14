@@ -103,11 +103,8 @@ public class PetRestController {
 		BeanUtils.copyProperties(pet, newPet, "id");
 		if (user.hasAuthority(OWNER_AUTH).equals(true)) {
 			Owner owner = userService.findOwnerByUser(user.getId());
-			if (this.petService.underLimit(owner)) {
-				newPet.setOwner(owner);
-				savedPet = this.petService.savePet(newPet);
-			} else
-				throw new LimitReachedException("Pets", owner.getClinic().getPlan());
+			newPet.setOwner(owner);
+			savedPet = this.petService.savePet(newPet);
 		} else {
 			savedPet = this.petService.savePet(newPet);
 		}

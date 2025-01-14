@@ -33,6 +33,8 @@ import org.springframework.samples.petclinic.user.User;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.Builder;
+import lombok.Builder.Default;
 
 /**
  * Simple JavaBean domain object representing an owner.
@@ -61,6 +63,14 @@ public class Owner extends Person {
 	@Digits(fraction = 0, integer = 10)
 	private String telephone;
 
+	@Column(name = "vadecumRequests")
+	@NotEmpty
+	private Integer vademecumRequests = 0;
+
+	@Column(name = "lastMonthVademecumRequest")
+	@NotEmpty
+	private Integer lastMonthVademecumRequest = 0;
+
 	@OneToOne(cascade = { CascadeType.DETACH, CascadeType.REFRESH, CascadeType.PERSIST })
 	@JoinColumn(name = "user_id", referencedColumnName = "id")
 	@OnDelete(action = OnDeleteAction.CASCADE)
@@ -69,5 +79,20 @@ public class Owner extends Person {
 	@ManyToOne
 	@JoinColumn(name = "clinic", referencedColumnName = "id")
 	private Clinic clinic;
+
+	public Integer getVademecumRequests() {
+		Integer currentMonth = java.time.LocalDate.now().getMonthValue();
+		if (currentMonth != lastMonthVademecumRequest) {
+			lastMonthVademecumRequest = currentMonth;
+			vademecumRequests = 0;
+		}
+		return vademecumRequests;
+	}
+
+	public Integer increaseVademecumRequests() {
+		this.getVademecumRequests();
+		vademecumRequests++;
+		return vademecumRequests;
+	}
 
 }

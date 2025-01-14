@@ -84,6 +84,12 @@ public class OwnerService {
 		ownerRepository.delete(toDelete);
 	}
 
+	@Transactional
+	public Owner increaseOwnerVademecumRequests(Owner owner) throws DataAccessException {
+		owner.increaseVademecumRequests();
+		return saveOwner(owner);
+	}
+
 	@Transactional(readOnly = true)
 	public Map<String, Object> getOwnersStats() {
 		Map<String, Object> res = new HashMap<>();
