@@ -48,7 +48,7 @@ public class IllnessService {
 		return illnessRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Illness", "ID", id));
 	}
 
-	@PricingPlanAware(featureName = "vadecumRequests")
+	@PricingPlanAware(featureName = "vademecum")
 	@Transactional(rollbackFor = { PricingPlanEvaluationException.class })
 	public List<Illness> findIllnessesBySymptoms(List<String> symptoms) throws DataAccessException {
 		return illnessRepository.findIllnessesBySymptoms(symptoms);

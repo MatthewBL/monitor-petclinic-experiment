@@ -26,7 +26,7 @@ features:
     description: Access to the vademecum
     valueType: BOOLEAN
     defaultValue: false
-    expression: planContext['usageLimits']['maxVademecumRequests'] > userContext['vadecumRequests']
+    expression: planContext['usageLimits']['maxVademecumRequests'] > userContext['vademecumRequests']
     type: DOMAIN
 usageLimits:
   maxPets:
@@ -57,6 +57,8 @@ plans:
     usageLimits:
       maxPets:
         value: 2      
+      maxVademecumRequests:
+        value: 1
   GOLD:
     description: Advanced plan
     monthlyPrice: 5.0
@@ -69,7 +71,9 @@ plans:
         value: true  
     usageLimits:
       maxPets:
-        value: 4
+        value: 4      
+      maxVademecumRequests:
+        value: 2
   PLATINUM:
     description: Advanced plan
     monthlyPrice: 12.0
@@ -84,5 +88,7 @@ plans:
         value: true   
     usageLimits:
       maxPets:
-        value: 7
+        value: 7      
+      maxVademecumRequests:
+        value: 4
 addOns:

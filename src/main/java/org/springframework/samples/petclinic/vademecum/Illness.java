@@ -37,7 +37,7 @@ import lombok.Setter;
 public class Illness extends NamedEntity {
 
 	@ManyToMany(fetch = FetchType.EAGER)
-	@JoinTable(name = "illness_symptom", joinColumns = @JoinColumn(name = "illness_id"), inverseJoinColumns = @JoinColumn(name = "symptom_id"), uniqueConstraints = {
+	@JoinTable(name = "illnesses_symptoms", joinColumns = @JoinColumn(name = "illness_id"), inverseJoinColumns = @JoinColumn(name = "symptom_id"), uniqueConstraints = {
 			@UniqueConstraint(columnNames = { "illness_id", "symptom_id" }) })
 	private List<Symptom> symptoms;
 

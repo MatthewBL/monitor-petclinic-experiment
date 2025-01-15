@@ -63,12 +63,10 @@ public class Owner extends Person {
 	@Digits(fraction = 0, integer = 10)
 	private String telephone;
 
-	@Column(name = "vadecumRequests")
-	@NotEmpty
+	@Column(name = "vademecumRequests")
 	private Integer vademecumRequests = 0;
 
 	@Column(name = "lastMonthVademecumRequest")
-	@NotEmpty
 	private Integer lastMonthVademecumRequest = 0;
 
 	@OneToOne(cascade = { CascadeType.DETACH, CascadeType.REFRESH, CascadeType.PERSIST })
